@@ -96,7 +96,7 @@ class Diseñador(Empleado):
                 detectar_figma = True
             indice = indice + 1
         
-        if detecting_figma == True: 
+        if detectar_figma == True: 
             pago_final = pago_final + 300
         else:
             if detectar_figma == True:
@@ -388,4 +388,5 @@ def menu_principal_consola():
             print("Opcion no reconocida.")
 
 if __name__ == "__main__":
+
     menu_principal_consola()
